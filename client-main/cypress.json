@@ -1,0 +1,6 @@
+{
+  "env": { 
+    "host": "http://localhost:9000",
+    "api_host": "http://localhost:9050"
+  }
+}

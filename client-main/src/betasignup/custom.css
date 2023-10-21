@@ -1,0 +1,18 @@
+.fadeout-element {
+  position: relative;
+}
+
+.fadeout-element:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 100%;
+  top: 0;
+  pointer-events: none; /*makes the linkes behind clickable*/
+}
+
+.fadeout-element:before {
+  left: 0;
+  background: linear-gradient(to right, #231f32 20px, rgba(0, 0, 0, 0));
+}
