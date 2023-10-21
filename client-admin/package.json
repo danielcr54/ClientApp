@@ -1,0 +1,39 @@
+{
+  "name": "client-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
+    "@igg/auth": "0.0.1",
+    "@igg/common": "0.0.1",
+    "@sentry/browser": "^4.5.3",
+    "apollo-boost": "^0.1.22",
+    "apollo-link-ws": "^1.0.12",
+    "apollo-utilities": "^1.1.0-alpha.8",
+    "axios": "^0.18.0",
+    "emotion": "^10.0.4",
+    "final-form": "^4.11.0",
+    "graphql": "^14.0.2",
+    "minireset.css": "^0.0.3",
+    "react": "^16.6.3",
+    "react-apollo": "^2.3.2",
+    "react-dom": "^16.6.3",
+    "react-emotion": "^9.2.12",
+    "react-final-form": "3.7.0",
+    "react-icons": "^3.2.2",
+    "react-images": "^0.5.19",
+    "react-photo-gallery": "^6.3.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "subscriptions-transport-ws": "^0.9.15",
+    "unstated": "^2.1.1"
+  }
+}
